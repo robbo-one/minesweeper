@@ -84,7 +84,6 @@ function startGame () {
 // 1. Are all of the cells that are NOT mines visible?
 // 2. Are all of the mines marked?
 function checkForWin () {
-  
   for (var i = 0; i < board.cells.length; i++) {
   if (board.cells[i].isMine == true && board.cells[i].isMarked == true){
     lib.displayMessage('You win!')
