@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
+    
     <title>Minesweeper</title>
+    
     <link rel="stylesheet" href="minesweeper.css">
+    
     <script src="lib/tests.js"></script>
+    
     <script src="lib/lib.js"></script>
-    <script src="minesweeper.js"></script>
+    
+    
+    
+    
   </head>
   <body>
+
     <div id="message"></div>
+    
     <div id="notes"></div>
-    <div class="board"></div>
+    <button id='reset' onclick='resetBoard()'> Another try?...But there is no try?!</button>
+   
+    <div class="board" id= "board"></div>
+     <script src="minesweeper.js"></script>
+     <audio id ="notaMine" src ="helpyou.wav"></audio>
+    <audio id ="Boom" src ="bird_up_-_buildup3.mp3"></audio>
   </body>
 </html>
