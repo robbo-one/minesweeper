@@ -8,7 +8,8 @@ body {
   align-items: center;
   justify-content: flex-center;
   flex-direction: column;
-  color: rgb(36, 12, 16);
+  color: rgb(214, 202, 71);
+  background: black;
 }
 
 #message, #notes {
@@ -20,7 +21,21 @@ body {
 #message {
   font-size: 3.5rem;
 }
-
+#reset {
+  font-size: 1.8rem;
+  color: rgb(115, 255, 0);
+  background:black;
+  font-family:  arial;
+  margin-bottom: 40px;
+}
+#yodaGif {
+  height: 400px;
+  width: auto;
+}
+#yoda1 {
+  height: 300px;
+  width: auto;
+}
 .board {
   display: flex;
   flex-wrap: wrap;
@@ -41,7 +56,7 @@ body {
 }
 
 .board div:hover {
-  background-color: rgb(240, 215, 194);
+  background-color:  rgb(240, 215, 194);
 }
 
 div.mine, div.mine:hover {
@@ -53,7 +68,7 @@ div.hidden {
 }
 
 div.hidden:hover {
-  background: rgb(145, 158, 27);
+  background: no-repeat center/90% url("images/yoda4.gif");
 }
 
 div.marked, div.marked:hover {
