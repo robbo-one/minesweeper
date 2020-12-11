@@ -3,6 +3,7 @@
   <head>
     
     <title>Minesweeper</title>
+  
     
     <link rel="stylesheet" href="minesweeper.css">
     
@@ -15,16 +16,22 @@
     
   </head>
   <body>
+    <img src="images/yoda2.gif" id ="yodaGif">
 
-    <div id="message"></div>
+    <div id="message"> <p></p></div>
+    <button
+     id ="reset" onClick="window.location.reload();">
+     Another try?...But there is no try... CLICK here.
+    </button>
     
     <div id="notes"></div>
 
     <div class="board" id= "board"></div>
-    <button id ="reset" onClick="window.location.reload();">Another try?...But there is no try?!</button>
+    
 
      <script src="minesweeper.js"></script>
      <audio id ="notaMine" src ="helpyou.wav"></audio>
     <audio id ="Boom" src ="bird_up_-_buildup3.mp3"></audio>
+    <img  src="images/yoda4.gif"  id="yoda1" alt="yoda gif">
   </body>
 </html>
